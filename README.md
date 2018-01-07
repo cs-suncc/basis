@@ -1,2 +1,2 @@
 # basis
-2d game engine demo using GLFW(OpenGL/ES)
+2d game engine demo using OpenGL
