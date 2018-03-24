@@ -22,4 +22,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="vs.glsl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="fs.glsl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="fs2.glsl">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>
