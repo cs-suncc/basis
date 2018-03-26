@@ -19,13 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="basis\basis.cpp" />
+    <ClCompile Include="basis\glad.c" />
+    <ClCompile Include="ftest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fs.glsl" />
-    <None Include="fs2.glsl" />
-    <None Include="vs.glsl" />
+    <ClInclude Include="basis\basis.h" />
+    <ClInclude Include="basis\basis_core.h" />
+    <ClInclude Include="basis\basis_type.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basis\fs.glsl" />
+    <None Include="basis\vs.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
